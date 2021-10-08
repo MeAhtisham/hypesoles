@@ -1,0 +1,117 @@
+.header {
+  padding-bottom: 40px;
+}
+.header-content {
+  width: 384px;
+  margin: 0 auto;
+}
+.header-content img {
+  min-width: 100%;
+}
+
+.banner {
+  background-color: #f3f3f3;
+}
+.banner-content {
+  /* min-width: 305px; */
+  text-align: center;
+  margin: 0 auto;
+}
+.banner .banner-content img {
+  /* min-width: 100%; */
+}
+.partnership {
+  text-transform: uppercase;
+  text-align: center;
+  padding-bottom: 40px;
+}
+.partnership-content {
+  width: 384px;
+  margin: auto;
+}
+.partnership .partnership-content img {
+  min-width: 100%;
+  margin-top: 10px;
+}
+.partnership h1 {
+  margin-left: 10px;
+  text-align: left;
+  font-size: 22px;
+  font-weight: 300;
+  color: #5a5a5a;
+  font-family: "Oswald", sans-serif;
+  letter-spacing: 4px;
+}
+.coming-soon {
+  text-align: center;
+}
+.comming-soon h1 {
+  font-weight: 300;
+  text-transform: uppercase;
+  color: #5a5a5a;
+  font-size: 42px;
+  text-shadow: 4px 5px 5px #e7e7e7;
+  margin: 0px;
+  font-family: "Oswald", sans-serif;
+  letter-spacing: 7px;
+}
+.max-w-full {
+  max-width: 100%;
+}
+
+.footer {
+  padding-bottom: 80px;
+}
+.footer-content {
+  width: 384px;
+  margin: auto;
+  padding: 0px;
+}
+.footer li:nth-child(2) {
+  margin-top: 30px;
+}
+.footer li {
+  display: flex;
+  align-items: center;
+  margin-top: 22px;
+}
+.footer li img {
+  margin-right: 20px;
+}
+.comming-soon-heading h1 {
+  font-weight: 300;
+  font-size: 24px;
+  margin: 0px;
+  margin-top: -8px;
+  text-transform: uppercase;
+  color: #808080;
+  font-family: "Oswald", sans-serif;
+  letter-spacing: 3px;
+}
+@media (max-width: 450px) {
+  .header-content {
+    width: 284px;
+  }
+  .partnership-content {
+    width: 260px;
+  }
+  .partnership-content h1 {
+    font-size: 15px;
+    margin-top: 22px;
+    font-weight: 400;
+  }
+  .comming-soon h1 {
+    font-size: 28px;
+  }
+  .comming-soon-heading h1 {
+    font-size: 15px !important;
+    font-weight: 400;
+    letter-spacing: 2px;
+  }
+  .footer-content {
+    width: 260px !important;
+  }
+  .comming-soon h1 {
+    text-shadow: 1px 2px 4px #a9a9a9;
+  }
+}
