@@ -13,12 +13,8 @@
   background-color: #f3f3f3;
 }
 .banner-content {
-  /* min-width: 305px; */
   text-align: center;
   margin: 0 auto;
-}
-.banner .banner-content img {
-  /* min-width: 100%; */
 }
 .partnership {
   text-transform: uppercase;
